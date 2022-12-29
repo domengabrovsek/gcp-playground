@@ -1,0 +1,5 @@
+# terraform generated files
+.terraform
+
+# terraform credentials
+credentials
