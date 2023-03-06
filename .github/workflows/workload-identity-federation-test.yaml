@@ -17,10 +17,10 @@ jobs:
         name: "Authenticate to GCP"
         uses: "google-github-actions/auth@v0.3.1"
         with:
-          workload_identity_provider: "projects/1017300651546/locations/global/workloadIdentityPools/domen-personal-pool/providers/github"
+          workload_identity_provider: "projects/1017300651546/locations/global/workloadIdentityPools/my-pool/providers/my-provider"
           service_account: " domen-workload-identity-federa@domen-telegram-bot.iam.gserviceaccount.com"
 
       - id: "gcloud"
         name: "gcloud"
         run: |-
-          gcloud services list --project domen-telegram-bot
+          gcloud services list
