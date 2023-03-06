@@ -1,4 +1,4 @@
-name: List services in GCP
+name: Workload Identity Federation Test
 on: [pull_request]
 
 permissions:
