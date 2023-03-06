@@ -18,4 +18,4 @@ jobs:
       - id: "gcloud"
         name: "gcloud"
         run: |-
-          gcloud services list
+          gcloud services list --project domen-telegram-bot
